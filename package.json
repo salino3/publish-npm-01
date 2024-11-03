@@ -1,0 +1,19 @@
+{
+  "name": "my-package-salinoe3",
+  "version": "1.0.0",
+  "description": "new-package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "salino3",
+  "licence": "MIT",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
